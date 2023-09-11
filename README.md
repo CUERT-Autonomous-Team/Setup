@@ -21,9 +21,9 @@ Start a terminal and run:
 
 ```bash
 
-sudoaptupdate
+sudo apt update
 
-sudoaptupgrade
+sudo apt upgrade
 
 ```
 
@@ -73,7 +73,7 @@ Run the following command to install Turtlebot3:
 
 ```bash
 
-sudoaptinstallros-noetic-dynamixel-sdkros-noetic-turtlebot3-msgs\
+sudo apt install ros-noetic-dynamixel-sdkros-noetic-turtlebot3-msgs\
 
 ros-noetic-turtlebot3ros-noetic-turtlebot3-simulations
 
@@ -85,7 +85,7 @@ Test Turtlebot3 by running the following commands:
 
 export TURTLEBOT3_MODEL=burger
 
-roslaunchturtlebot3_gazeboturtlebot3_world.launch
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 ```
 
@@ -109,7 +109,7 @@ Install important python packages:
 
 ```bash
 
-pipinstall--userpygamenumpy
+pip install -- user pygame numpy
 
 ```
 
@@ -125,11 +125,11 @@ Enclose the extracted folders in two parent folders (e.g. `carla-ros-bridge/src/
 
 ```bash
 
-rosdepupdate
+rosdep update
 
-rosdepinstall--from-pathssrc--ignore-src-r
+rosdep install--from-pathssrc--ignore-src-r
 
-catkinbuild
+catkin build
 
 ```
 
@@ -137,9 +137,9 @@ Install important python packages:
 
 ```bash
 
-sudoaptinstallpython-is-python3
+sudo apt install python-is-python3
 
-sudoaptinstallpython3-opencv
+sudo apt install python3-opencv
 
 ```
 
@@ -151,9 +151,9 @@ export CARLA_ROOT=<path-to-carla>
 
 export PYTHONPATH=$PYTHONPATH:$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:$CARLA_ROOT/PythonAPI/carla
 
-sourcedevel/setup.bash
+source devel/setup.bash
 
-roslaunchcarla_ros_bridgecarla_ros_bridge_with_example_ego_vehicle.launch
+roslaunch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch
 
 ```
 
