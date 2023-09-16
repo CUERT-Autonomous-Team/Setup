@@ -73,9 +73,10 @@ Run the following command to install Turtlebot3:
 
 ```bash
 
-sudo apt install ros-noetic-dynamixel-sdkros-noetic-turtlebot3-msgs\
-
-ros-noetic-turtlebot3ros-noetic-turtlebot3-simulations
+sudo apt install ros-noetic-dynamixel-sdk
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
+sudo apt install ros-noetic-turtlebot3-simulations
 
 ```
 
