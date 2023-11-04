@@ -102,7 +102,7 @@ Test Carla by running the following command:
 
 ```bash
 
-./CarlaUE4.sh-quality-level=Low-windowed-fps-novsync-resx=360-resy=240
+./CarlaUE4.sh -quality-level=Low-windowed-fps-novsync-resx=360-resy=240
 
 ```
 
@@ -110,7 +110,7 @@ Install important python packages:
 
 ```bash
 
-pip install -- user pygame numpy
+pip install --user pygame numpy
 
 ```
 
