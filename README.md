@@ -13,7 +13,7 @@ Download **Ubuntu 20.04 LTS (Focal Fossa)** from [here](https://releases.ubuntu.
 
 Follow this [video](https://www.youtube.com/watch?v=GXxTxBPKecQ) to install Ubuntu alongside Windows as a dual boot.
 
-***Allocate** 40GB of space or more for Ubuntu
+***Allocate** 70GB of space or more for Ubuntu
 
 Make yourself familiar with Ubuntu and install **VSCode** and **Discord** from Ubuntu software store.
 
